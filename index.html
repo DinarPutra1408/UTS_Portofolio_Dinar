@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<!-- Deklarasi tipe dokumen HTML5 -->
+<html lang="id">
+<!-- Elemen root dengan atribut bahasa Indonesia -->
+<head>
+    <!-- Bagian head berisi metadata dan link resource -->
+    <meta charset="UTF-8">
+    <!-- Pengaturan karakter encoding UTF-8 untuk support multilingual -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Viewport untuk responsive design di berbagai device -->
+    <title>Portfolio Dinar Putra Mubarok</title>
+    <!-- Judul halaman yang muncul di tab browser -->
+    
+    <!-- Load font Poppins dari Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <!-- Link ke file CSS eksternal -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="AvatarDinar.png" alt="Foto Profil">
+                <h3>Dinar Putra Mubarok</h3>
+            </div>
+            
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <nav id="navigation">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Beranda</a></li>
+                    <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Proyek Saya</a></li>
+                    <li><a href="#achievements" class="nav-link">Prestasi</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimoni Klien</a></li>
+                    <li><a href="#guestbook" class="nav-link">Buku Tamu</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span class="hamburger"></span>
+            </label>
+        </div>
+    </header>
+
+    <section id="home" class="main">
+    <div class="container">
+        <div class="main-grid">
+            <div class="main-text">
+                <h1>Halo, Saya <span>Dinar</span></h1>  
+                 <!-- Kontainer elemen untuk teks animasi -->
+        <div class="profession-title">
+            <span class="profession-text" id="professionText">Web Developer Profesional</span>
+            <span class="profession-underline"></span>
+        </div>
+                <p>Pengembang web dari Surabaya dengan pengalaman lebih dari 1 tahun dalam pengembangan web, desain UI/UX, dan pemasaran digital. Mahir dalam Java, HTML, CSS, JavaScript, dan Figma.</p>
+                <div class="button-group">
+                    <a href="https://drive.google.com/file/d/1Xxvm76QwBLFILoTjrzXAhdBXsK0Zl63P/view?usp=drive_link" class="btn primary">Unduh CV</a>
+                    <a href="#projects" class="btn secondary">Lihat Proyek</a>
+                </div>
+            </div>
+            <div class="profile-card-container">
+    <div class="profile-card" id="profileCard">
+        <div class="profile-card-front">
+            <div class="card-header">
+                <h3>Dinar Putra Mubarok</h3>
+                <p>Web Developer</p>
+            </div>
+            <div class="card-body">
+                <div class="click-hint">Klik untuk melihat foto</div>
+                <div class="skills">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Figma</span>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card-back">
+            <img src="DinarProfile.png" alt="Dinar - Web Developer">
+            <div class="back-overlay">
+                <h3>Dinar Putra Mubarok</h3>
+                <p>Web Developer Profesional</p>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="experience">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Pengalaman</h2>
+            <p class="section-subtitle">Perjalanan profesional dan pendidikan saya</p>
+        </div>
+        
+        <div class="experience-track">
+            <div class="experience-items">
+                <div class="experience-item">
+                    <h3>Lulusan Terbaik S1 Sistem Informasi</h3>
+                    <p class="company">Universitas Internasional Semen Indonesia</p>
+                    <p class="duration">2022 - 2026</p>
+                </div>
+                
+                <div class="experience-item">
+                    <h3>Frontend Developer Bootcamp</h3>
+                    <p class="company">PT Telkom Indonesia</p>
+                    <p class="duration">Sep 2023 - Dec 2023 (4 bulan)</p>
+                </div>
+                
+                <div class="experience-item">
+                    <h3>Frontend Developer Course</h3>
+                    <p class="company">Gojek Indonesia</p>
+                    <p class="duration">Aug 2023 (1 bulan)</p>
+                </div>
+                
+                <!-- Duplicate items for seamless looping -->
+                <div class="experience-item">
+                    <h3>Fullstack Developer</h3>
+                    <p class="company">PT. Tricada Intronik</p>
+                    <p class="duration">2024</p>
+                </div>
+                
+                <div class="experience-item">
+                    <h3>Frontend Developer Bootcamp</h3>
+                    <p class="company">Google</p>
+                    <p class="duration">Sep 2023 - Dec 2023 (4 bulan)</p>
+                </div>
+                
+                <div class="experience-item">
+                    <h3>Frontend Developer Course</h3>
+                    <p class="company">SMK Telkom</p>
+                    <p class="duration">Aug 2023 (1 bulan)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Skills</h2>
+            <p class="section-subtitle">Teknologi yang saya kuasai</p>
+        </div>
+        
+        <div class="skills-connection">
+            <!-- Pusat animasi -->
+            <div class="connection-hub">8</div>
+            
+            <!-- Garis koneksi -->
+            <svg class="connection-lines" width="100%" height="100%"></svg>
+            
+            <!-- 8 Skill Items -->
+            <div class="skill-item" data-skill="typescript" style="--angle: 0deg; --distance: 150px">
+                <div class="skill-logo">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+                </div>
+                <span class="skill-name">TS</span>
+                <div class="skill-light"></div>
+            </div>
+            
+            <div class="skill-item" data-skill="javascript" style="--angle: 45deg; --distance: 150px">
+                <div class="skill-logo">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                </div>
+                <span class="skill-name">JS</span>
+                <div class="skill-light"></div>
+            </div>
+            
+            <div class="skill-item" data-skill="react" style="--angle: 90deg; --distance: 150px">
+                <div class="skill-logo">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                </div>
+                <span class="skill-name">React</span>
+                <div class="skill-light"></div>
+            </div>
+            
+            <div class="skill-item" data-skill="html5" style="--angle: 135deg; --distance: 150px">
+                <div class="skill-logo">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                </div>
+                <span class="skill-name">HTML</span>
+                <div class="skill-light"></div>
+            </div>
+            
+            <div class="skill-item" data-skill="css3" style="--angle: 180deg; --distance: 150px">
+                <div class="skill-logo">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                </div>
+                <span class="skill-name">CSS</span>
+                <div class="skill-light"></div>
+            </div>
+            
+            <div class="skill-item" data-skill="nodejs" style="--angle: 225deg; --distance: 150px">
+                <div class="skill-logo">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                </div>
+                <span class="skill-name">Node</span>
+                <div class="skill-light"></div>
+            </div>
+            
+            <div class="skill-item" data-skill="git" style="--angle: 270deg; --distance: 150px">
+                <div class="skill-logo">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                </div>
+                <span class="skill-name">Git</span>
+                <div class="skill-light"></div>
+            </div>
+            
+            <div class="skill-item" data-skill="figma" style="--angle: 315deg; --distance: 150px">
+                <div class="skill-logo">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                </div>
+                <span class="skill-name">Figma</span>
+                <div class="skill-light"></div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <!-- Header section dengan judul dan subjudul -->
+            <div class="section-header">
+                <h2 class="section-title">Proyek Saya</h2>
+                <p class="section-subtitle">Beberapa karya terbaik yang telah saya selesaikan</p>
+            </div>
+        </div>
+
+        <!-- Project 1 - Full Width Layout -->
+        <div class="project-full">
+            <div class="container">
+                <article class="project-card">
+                    <div class="project-content">
+                        <!-- Informasi proyek -->
+                        <div class="project-info">
+                            <h3>Tracknesia Apps</h3>
+                            <p class="project-category">Aplikasi Mobile • UI/UX Design</p>
+                            <p class="project-desc">Aplikasi pelacakan perjalanan dengan fitur GPS real-time yang dikembangkan menggunakan Figma. Memiliki fitur pencatatan rute, estimasi waktu, dan integrasi dengan media sosial.</p>
+                            <!-- Tag teknologi -->
+                            <div class="project-tech">
+                                <span>Sitemap</span>
+                                <span>User Flow</span>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                        <!-- Gambar proyek -->
+                        <div class="project-image">
+                            <img src="TracknesiaApps.png" alt="Tracknesia Apps">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!---- Project 1 - Full Width Layout -->
+        <div class="project-full">
+            <div class="container">
+                <article class="project-card">
+                    <div class="project-content">
+                        <!-- Informasi proyek -->
+                        <div class="project-info">
+                            <h3>POLUSI website</h3>
+                            <p class="project-category">Web Aplikasi • UI/UX Design</p>
+                            <p class="project-desc">Aplikasi web portal UISI yang digunakan untuk melakukan sleksi lomba internal UISI serta integrasi data</p>
+                            <!-- Tag teknologi -->
+                            <div class="project-tech">
+                                <span>Sitemap</span>
+                                <span>User Flow</span>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                        <!-- Gambar proyek -->
+                        <div class="project-image">
+                            <img src="PolusiApps.png" alt="PolusiApps">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Project  dengan layout terbalik -->
+        <div class="project-full">
+            <div class="container">
+                <article class="project-card">
+                    <!-- Class 'reverse' untuk membalik posisi gambar dan teks -->
+                    <div class="project-content reverse">
+                        <div class="project-info">
+                            <h3>Pazarin Marketplace</h3>
+                            <p class="project-category">E-commerce • Web Development</p>
+                            <p class="project-desc">Platform e-commerce untuk UMKM lokal dengan sistem pembayaran terintegrasi dan manajemen inventaris. Dibangun dengan pembuatan Figma user flow dan sitemap.</p>
+                            <div class="project-tech">
+                                <span>Figma</span>
+                                <span>Sitemap</span>
+                                <span>Userflow</span>
+                            </div>
+                        </div>
+                        <!-- Video proyek dengan poster -->
+                        <div class="project-image">
+                            <div class="video-container">
+                                <video controls poster="Pazarin-poster.jpg">
+                                    <source src="VidioPazarin.mp4" type="video/mp4">  
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Prestasi</h2>
+                <p class="section-subtitle">Pencapaian dan pengakuan yang saya dapatkan</p>
+            </div>
+
+            <!-- Grid layout untuk prestasi -->
+            <div class="achievement-grid">
+                <!-- Achievement Card 1 -->
+                <article class="achievement-card">
+                    <div class="achievement-image">
+                        <img src="JuaraFesmaro.jpeg" alt="Hackathon Nasional">
+                    </div>
+                    <div class="achievement-content">
+                        <!-- Meta informasi (tanggal dan badge) -->
+                        <div class="achievement-meta">
+                            <span class="date">April 2025</span>
+                            <span class="badge gold">Juara 1</span>
+                        </div>
+                        <h3>FESMARO 2025</h3>
+                        <p>Mengembangkan aplikasi pazarin hingga uji testing aplikasi menggunakan maze.</p>
+                    </div>
+                </article>
+
+                <!-- Achievement Card 2 -->
+                <article class="achievement-card">
+                    <div class="achievement-image">
+                        <img src="JuaraTigaSilat.jpeg" alt="Kompetisi Coding">
+                    </div>
+                    <div class="achievement-content">
+                        <div class="achievement-meta">
+                            <span class="date">Mei 2022</span>
+                            <span class="badge bronze">Juara 3</span>
+                        </div>
+                        <h3>Kompetisi Pencak Silat Surabaya SLC Cup 2022</h3>
+                        <p>Kategori Kelas F fighter putra remaja.</p>
+                    </div>
+                </article>
+
+                <!-- Achievement Card 3 -->
+                <article class="achievement-card">
+                    <div class="achievement-image">
+                        <img src="AsdosMatdis.jpg" alt="Beasiswa Prestasi">
+                    </div>
+                    <div class="achievement-content">
+                        <div class="achievement-meta">
+                            <span class="date">2024-2025</span>
+                            <span class="badge">Asisten Dosen</span>
+                        </div>
+                        <h3>Asisten Dosen</h3>
+                        <p>Menjadi Asisten dosen mata kuliah Matematika diskrit dengan 3 poin sks.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+<section id="testimonials" class="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Testimoni Klien</h2>
+            <p class="section-subtitle">Apa kata mereka tentang karya saya</p>
+        </div>
+
+        <div class="testimonial-slider">
+            <div class="testimonial-track">
+                <!-- Testimonial 1 - Elon Musk -->
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Dinar memiliki kemampuan luar biasa dalam menyelesaikan tantangan pengembangan web yang kompleks. Karyanya pada antarmuka Tesla benar-benar inovatif.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/1200px-Elon_Musk_Royal_Society_%28crop2%29.jpg" alt="Elon Musk" loading="lazy">
+                            </div>
+                            <div class="author-info">
+                                <h4>Elon Musk</h4>
+                                <p>CEO Tesla & SpaceX</p>
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 - Sundar Pichai -->
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Aplikasi web yang dikembangkan Dinar untuk Google sangat inovatif dan dieksekusi dengan sempurna. Perhatiannya terhadap detail sangat mengesankan.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sundar_pichai.png/800px-Sundar_pichai.png" alt="Sundar Pichai" loading="lazy">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sundar Pichai</h4>
+                                <p>CEO Google</p>
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 - Bill Gates -->
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Karya Dinar pada website yayasan kami sangat transformatif. Dia memahami teknologi dan pengalaman pengguna pada tingkat yang mendalam.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Bill_Gates_2017_%28cropped%29.jpg/800px-Bill_Gates_2017_%28cropped%29.jpg" alt="Bill Gates" loading="lazy">
+                            </div>
+                            <div class="author-info">
+                                <h4>Bill Gates</h4>
+                                <p>Pendiri Microsoft</p>
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 - Mark Zuckerberg -->
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Teknik optimasi frontend Dinar meningkatkan performa platform Meta kami sebesar 40%. Benar-benar developer kelas dunia.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg/800px-Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg" alt="Mark Zuckerberg" loading="lazy">
+                            </div>
+                            <div class="author-info">
+                                <h4>Mark Zuckerberg</h4>
+                                <p>CEO Meta</p>
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 5 - Tim Cook -->
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Kehadiran web Apple mencapai level baru berkat solusi inovatif Dinar. Karyanya indah sekaligus fungsional.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tim_Cook_2009_cropped.jpg/800px-Tim_Cook_2009_cropped.jpg" alt="Tim Cook" loading="lazy">
+                            </div>
+                            <div class="author-info">
+                                <h4>Tim Cook</h4>
+                                <p>CEO Apple</p>
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <button class="slider-nav prev" aria-label="Previous testimonial">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+            <button class="slider-nav next" aria-label="Next testimonial">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+
+            <!-- Pagination Dots -->
+            <div class="slider-dots"></div>
+        </div>
+    </div>
+</section>
+
+    <!-- Guestbook Section -->
+    <section id="guestbook" class="guestbook">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Buku Tamu</h2>
+                <p class="section-subtitle">Isi form berikut dan lihat daftar pengunjung</p>
+            </div>
+            
+            <!-- Konten buku tamu dalam grid -->
+            <div class="guestbook-content">
+                <!-- Form buku tamu -->
+                <form id="guestbook-form" class="guestbook-form card">
+                    <h3 class="form-title">Form Kunjungan</h3>
+                    <div class="form-group">
+                        <label for="guest-name">Nama Lengkap</label>
+                        <input type="text" id="guest-name" placeholder="Masukkan nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guest-message">Pesan/Komentar</label>
+                        <textarea id="guest-message" rows="3" placeholder="Tulis pesan Anda..." required></textarea>
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="guest-attended">
+                        <label for="guest-attended">Saya sudah mengunjungi website ini</label>
+                    </div>
+                    <button type="submit" class="btn primary">Kirim</button>
+                </form>
+                
+                <!-- Daftar tamu -->
+                <div class="guestbook-list-container card">
+                    <div class="list-header">
+                        <h3>Daftar Pengunjung</h3>
+                        <div class="list-controls">
+                            <!-- Search box dengan SVG icon -->
+                            <div class="search-box">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                </svg>
+                                <input type="text" id="search-guest" placeholder="Cari pengunjung...">
+                            </div>
+                            <button id="clear-all" class="btn secondary small">Hapus Semua</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Tempat daftar tamu akan dimuat -->
+                    <div id="guestbook-list" class="guestbook-list">
+                        <!-- Empty state ketika belum ada tamu -->
+                        <div class="empty-state">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                            <p>Tidak ada pengunjung yang ditemukan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hubungi Saya</h2>
+                <p class="section-subtitle">Saya terbuka untuk peluang kerja sama dan proyek baru</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Form kontak -->
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Kirim Pesan</button>
+                </form>
+
+                <!-- Informasi kontak -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <span>✉️</span>
+                        </div>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p>dinarmubarok719@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <span>📱</span>
+                        </div>
+                        <div class="info-text">
+                            <h4>Telepon</h4>
+                            <p>+62 821 4039 9150</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <span>📍</span>
+                        </div>
+                        <div class="info-text">
+                            <h4>Lokasi</h4>
+                            <p>Surabaya, Jawa Timur, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer Section -->
+<footer id="footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- About Section -->
+            <div class="footer-about">
+                <img src="AvatarDinar.png" alt="Dinar Putra Mubarak">
+                <h3>Dinar Putra Mubarok</h3>
+                <p>Web Developer profesional dengan fokus pada pengalaman pengguna dan solusi digital kreatif.</p>
+
+                <!-- Social Media Links -->
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/dinar-putra-mubarok-1119462a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/DinarPutra1408" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                    </a>
+                    <a href="https://www.instagram.com/dinar_pm_14?igsh=NzVnMng2dDBxcHhn" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="https://x.com/dinar_mubarok?t=eUDdqPLED8JxrZWpq5SatA&s=09" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="Twitter">
+                    </a>
+                    <a href="mailto:dinarmubarok719@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" alt="Email">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Tautan Cepat</h4>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#experience">Pengalaman</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#achievements">Prestasi</a></li>
+                    <li><a href="#testimonials">Testimoni</a></li>
+                    <li><a href="#guestbook">Buku Tamu</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Dinar Putra Mubarok. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Kebijakan Privasi</a>
+                <a href="#">Syarat & Ketentuan</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Load JavaScript di akhir body untuk performa -->
+    <script src="script.js"></script>
+</body>
+</html>
